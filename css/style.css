@@ -1,0 +1,182 @@
+html {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h4,
+h6,
+div,
+span {
+    font-family: PingFangSC-Regular, sans-serif, Microsoft JhengHei;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 7px !important;
+}
+
+h1 {
+    font-size: 25px !important;
+}
+
+h2 {
+    font-size: 17px !important;
+    font-weight: 500 !important;
+}
+
+.collapse {}
+
+.bg {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+
+}
+
+.content {
+    width: 1055px;
+    height: auto;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: lightgray !important;
+}
+
+.navbarn {
+    background-color: #9f897c !important;
+    color: white;
+}
+
+@media (min-width: 768px) {
+
+    /*nav選單*/
+    .navbar {
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+}
+/* section1 */
+
+.mainimg {
+    padding-top: 100px;
+}
+
+/* section2 */
+.intro {
+    margin-top: 20px;
+}
+
+.sec21 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: #9f897c;
+}
+
+.sec22 {
+    color: #4d4d4d;
+    background-color: #e9cea8;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+/* section3 */
+
+.bgintro {
+    margin-top: 20px;
+    padding-bottom: 0px;
+}
+
+.ctimg {
+    padding-top: 2%;
+    text-align: center;
+    color: #4d4d4d !important;
+    display: block;
+    font-weight: 500;
+    background-image: url(../img/section3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 70px;
+}
+/* section4 */
+
+.artists {
+    max-width: 1025px;
+    background-color: #f1f1f1;
+    color: #4d4d4d !important;
+    margin-top: 15px;
+    align-items: center;
+
+}
+
+.art {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.artleft {
+    padding-left: 0px !important;
+}
+
+.artright {
+    padding-top: 30px;
+}
+
+.artright1 {
+    padding-right: 0px !important;
+}
+
+.artleft1 {
+    text-align: right;
+    padding-top: 30px;
+}
+
+/* footer */
+
+.text-right {
+    padding-right: 6% !important;
+}
+
+.footer img {
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+footer {
+    margin-top: 15px;
+    background-color: #808487;
+    padding: 20px 0;
+}
+
+footer p {
+    color: white;
+    margin-left: 8%;
+    margin-top: 10px;
+    line-height: 39px;
+    font-size: 20px !important;
+}
